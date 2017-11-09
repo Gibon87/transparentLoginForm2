@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 1px;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background: url('https://cdn.pixabay.com/photo/2017/08/31/20/14/blue-2702172_960_720.jpg');
+  background-size: cover;
+}
+.container {
+  background: rgba(103, 58, 183, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 350px;
+}
+.container .form-content,
+.container .login-form {
+  position: relative;
+  width: 50%;
+  height: 350px;
+  float: left;
+}
+.container .login-form {
+  padding: 30px;
+  background: #fff;
+  height: 380px;
+  top: -15px;
+  box-shadow: -20px 0 15px rgba(0,0,0,0.2);
+}
+.container .login-form h1 {
+  color: #262626;
+  margin-bottom: 20px;
+}
+.container .login-form input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+.container .login-form input:hover,
+.container .login-form input:valid {
+  border: 2px solid #673ab7;
+}
+.container .login-form input[type="submit"] {
+  background: #673ab7;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.container .login-form input[type="submit"]:hover {
+  background: #ff0057;
+  border: 2px solid #ff0057;
+}
+.container .login-form a {
+  text-decoration: none;
+  font-weight: bold;
+  color:#673ab7;
+}
+.container .form-content {
+  padding: 40px 30px;
+  color: #fff;
+}
+.container .form-content a {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  background: #ff0057;
+  border-radius: 25px;
+  text-decoration: none;
+
+}
