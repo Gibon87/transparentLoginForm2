@@ -20,7 +20,9 @@ section {
   transform: translate(-50%, -50%);
   top: 50%;
   width: 700px;
-
+}
+.container .form-content h2 {
+  margin-bottom: 20px;
 }
 .container .form-content,
 .container .login-form {
@@ -30,7 +32,6 @@ section {
   width: 50%;
 }
 .container .login-form {
-
   background: #fff;
   box-shadow: -20px 0 15px rgba(0,0,0,0.2);
   height: 380px;
